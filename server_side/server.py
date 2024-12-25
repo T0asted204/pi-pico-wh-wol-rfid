@@ -13,5 +13,5 @@ def run_script():
         return f"Error running script: {e}", 500
 
 if __name__ == '__main__':
-    app.run(host='192.168.0.40', port=5000)
+    app.run(host='your_ip', port=5000) #change port and ip as needed 
 

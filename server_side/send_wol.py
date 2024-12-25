@@ -13,11 +13,11 @@ def send_wol(mac_address):
 pygame.mixer.init()
 
 # Load and play the MP3 file
-pygame.mixer.music.load("/home/dane/Music/bo3sound.mp3")  # Replace with the actual path to your MP3 file
+pygame.mixer.music.load("/home/usd/Music/example.mp3")  # Replace with the actual path to your MP3 file
 pygame.mixer.music.play()
 
 # Send Wake-on-LAN packet to a specific MAC address
-mac_address = "B4:2E:99:36:EC:8D"  # Replace with the target MAC address
+mac_address = "11:22:33:44:55:66"  # Replace with the target MAC address
 send_wol(mac_address)
 
 # Wait until the song finishes
